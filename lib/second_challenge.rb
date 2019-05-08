@@ -7,7 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+  newArray = []
+  newArray << groceries.values
+  return newArray
 
 end
