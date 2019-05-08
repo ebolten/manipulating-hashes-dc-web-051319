@@ -19,7 +19,8 @@ def first_challenge
       data.each do |key, value|
         if key == :favorite_icecream_flavors
           value.each do |item|
-            item.delete_if{|x| x == "strawberry"}
+            if item == "strawberry"
+              item.delete
           end
         end
       end
