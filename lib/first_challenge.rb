@@ -21,6 +21,7 @@ def first_challenge
           value.each do |item|
             if item == "strawberry"
               item.delete
+            end
           end
         end
       end
