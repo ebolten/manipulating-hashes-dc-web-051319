@@ -20,7 +20,7 @@ def first_challenge
         if key == :favorite_icecream_flavors
           value.each do |item|
             if item == "strawberry"
-              item.delete
+              delete(item)
             end
           end
         end
