@@ -10,5 +10,4 @@ def second_challenge
   newArray = []
   newArray << groceries.values
   return newArray
-
 end
